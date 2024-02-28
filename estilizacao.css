@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    display: flex;
+    border: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    
+}
+#titulo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.603);
+    
+}
+main{
+    margin-top: 110px ;
+}
+section{
+   
+    padding: 10px;
+    display: flex;
+    font-size: 2.1rem;
+    gap: 80px;
+}
+#SobreMim{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+
+}
+img{
+    width: 500px;
+    height: 300px;
+}
+
+#SobreMim button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    width: 10vw;
+    
+}
+a{
+text-decoration: none;        
+}
